@@ -64,8 +64,19 @@ public class ProgrammerButtonsPanel extends JPanel{
         buttonsPanel.add(sourceClassObject.zero);
         buttonsPanel.add(sourceClassObject.point);
         buttonsPanel.add(sourceClassObject.answer);
+        // changed the state of buttons to false for now
+        sourceClassObject.answer.setEnabled(false);
+        sourceClassObject.addition.setEnabled(false);
+        sourceClassObject.subtraction.setEnabled(false);
+        sourceClassObject.multiplication.setEnabled(false);
+        sourceClassObject.mod.setEnabled(false);
+        sourceClassObject.openParenthesis.setEnabled(false);
+        sourceClassObject.closeParenthesis.setEnabled(false);
+        sourceClassObject.leftShift.setEnabled(false);
+        sourceClassObject.rightShift.setEnabled(false);
+        sourceClassObject.division.setEnabled(false);
     }
-    // sets up the middle part of this panel
+    // deactivited buttons
     private void setUpNumberBasePanel(){
         hexPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         decPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));

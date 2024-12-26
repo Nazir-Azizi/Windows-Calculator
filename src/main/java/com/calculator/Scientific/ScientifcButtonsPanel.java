@@ -146,7 +146,7 @@ public class ScientifcButtonsPanel extends JPanel{
     }
     // adds all the buttons onto the panel
     private void addButtonsToPanel(){
-        downButtons.add(sourceClassObject.secondIDK);
+        downButtons.add(sourceClassObject.second);
         downButtons.add(sourceClassObject.pie);
         downButtons.add(sourceClassObject.eNumber);
         downButtons.add(sourceClassObject.clearAll);
@@ -154,7 +154,7 @@ public class ScientifcButtonsPanel extends JPanel{
         downButtons.add(sourceClassObject.xToThePowerTwo);
         downButtons.add(sourceClassObject.oneDividedByX);
         downButtons.add(sourceClassObject.absoluteValueOfX);
-        downButtons.add(sourceClassObject.notKnown);
+        downButtons.add(sourceClassObject.exp);
         downButtons.add(sourceClassObject.mod);
         downButtons.add(sourceClassObject.sqrtX);
         downButtons.add(sourceClassObject.openParenthesis);
@@ -181,5 +181,12 @@ public class ScientifcButtonsPanel extends JPanel{
         downButtons.add(sourceClassObject.zero);
         downButtons.add(sourceClassObject.point);
         downButtons.add(sourceClassObject.answer);
+
+        // deactivited buttons
+        sourceClassObject.second.setEnabled(false);
+        sourceClassObject.exp.setEnabled(false);
+        sourceClassObject.openParenthesis.setEnabled(false);
+        sourceClassObject.closeParenthesis.setEnabled(false);
+        sourceClassObject.xTOthePowerOfY.setEnabled(false);
     }
 }

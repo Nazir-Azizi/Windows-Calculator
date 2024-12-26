@@ -12,7 +12,7 @@ import java.util.List;
 
 
 public class SourceClass { 
-    public JButtonCustom secondIDK;
+    public JButtonCustom second;
     public JButtonCustom pie;
     public JButtonCustom eNumber;
     public JButtonCustom clearAll;
@@ -20,7 +20,7 @@ public class SourceClass {
     public JButtonCustom xToThePowerTwo;
     public JButtonCustom oneDividedByX;
     public JButtonCustom absoluteValueOfX;
-    public JButtonCustom notKnown;
+    public JButtonCustom exp;
     public JButtonCustom mod;
     public JButtonCustom sqrtX;
     public JButtonCustom openParenthesis;
@@ -81,7 +81,7 @@ public class SourceClass {
     }
     // create the buttons
     private void createButtons(){
-        secondIDK = new JButtonCustom("<html>2<sup>nd</sup></html>");
+        second = new JButtonCustom("<html>2<sup>nd</sup></html>");
         pie = new JButtonCustom("π");
         eNumber = new JButtonCustom("e");
         clearAll = new JButtonCustom("C");
@@ -92,7 +92,7 @@ public class SourceClass {
         xToThePowerTwo = new JButtonCustom("<html>x<sup>2</sup></html>");
         oneDividedByX = new JButtonCustom("1/x");
         absoluteValueOfX = new JButtonCustom("|x|");
-        notKnown = new JButtonCustom("exp");
+        exp = new JButtonCustom("exp");
         mod = new JButtonCustom("Mod");
         mod.setFont(new Font("Arial", Font.PLAIN, 15));
         sqrtX = new JButtonCustom("2√x");
